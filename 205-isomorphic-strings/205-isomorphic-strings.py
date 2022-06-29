@@ -1,6 +1,5 @@
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
-        # map letters to each other in dictionary
         map = {}
 
         # if the lengths do not match it is false
