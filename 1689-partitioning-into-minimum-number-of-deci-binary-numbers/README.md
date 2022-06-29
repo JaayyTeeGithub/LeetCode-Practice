@@ -1,3 +1,5 @@
+My original solution timed out because of it's time complexity when dealing with the maximum size input. The leading zeros originally threw me off. I started over and took time to write the problem out of a sheet of paper before coming up with the solution that is described in the comments of the code. I definitely learned something new with this challenge. 
+
 <h2><a href="https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/">1689. Partitioning Into Minimum Number Of Deci-Binary Numbers</a></h2><h3>Medium</h3><hr><div><p>A decimal number is called <strong>deci-binary</strong> if each of its digits is either <code>0</code> or <code>1</code> without any leading zeros. For example, <code>101</code> and <code>1100</code> are <strong>deci-binary</strong>, while <code>112</code> and <code>3001</code> are not.</p>
 
 <p>Given a string <code>n</code> that represents a positive decimal integer, return <em>the <strong>minimum</strong> number of positive <strong>deci-binary</strong> numbers needed so that they sum up to </em><code>n</code><em>.</em></p>
