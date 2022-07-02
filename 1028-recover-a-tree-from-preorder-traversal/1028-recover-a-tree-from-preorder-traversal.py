@@ -9,10 +9,10 @@ class Solution:
         head_node = TreeNode()
         depth = 0
         current_node = None
-        #num_string = ''
         index = 0
             
         while index in range(0, len(traversal)):
+            
             if index == 0:
                 index, num_string = getNumber(traversal, index)
                 head_node.val = int(num_string)
