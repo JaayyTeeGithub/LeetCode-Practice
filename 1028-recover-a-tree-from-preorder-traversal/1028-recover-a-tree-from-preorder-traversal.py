@@ -47,7 +47,7 @@ class Solution:
                 else:
                     previous_node.left = TreeNode(int(num_string))
 
-                num_string = ''
+                #num_string = ''
                         
         return head_node
     
