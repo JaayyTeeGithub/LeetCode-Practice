@@ -9,7 +9,7 @@ class Solution:
         head_node = TreeNode()
         depth = 0
         current_node = None
-        num_string = ''
+        #num_string = ''
         index = 0
             
         while index in range(0, len(traversal)):
@@ -47,7 +47,6 @@ class Solution:
                 else:
                     previous_node.left = TreeNode(int(num_string))
 
-                #num_string = ''
                         
         return head_node
     
