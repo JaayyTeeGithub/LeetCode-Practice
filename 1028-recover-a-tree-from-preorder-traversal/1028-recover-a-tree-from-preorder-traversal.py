@@ -16,15 +16,12 @@ class Solution:
             if index == 0:
                 index, num_string = getNumber(traversal, index)
                 head_node.val = int(num_string)
-                print('created head')
             elif traversal[index] == '-':
                 depth += 1
                 index += 1
             else:
                 current_node = head_node
                 index, num_string = getNumber(traversal, index)
-                print('number is')
-                print(num_string)
                     
                 while depth > 0:
                     
@@ -34,7 +31,6 @@ class Solution:
                         previous_node = current_node
                         current_node = temp_node
                         depth -= 1
-                        print('went right')
                         
                     # if not go left
                     else:
@@ -42,9 +38,7 @@ class Solution:
                         previous_node = current_node
                         current_node = temp_node
                         depth -= 1
-                        print('went left')
-                print('node at depth is')
-                print(previous_node)
+  
                 # once at depth if left is none make left
                 if previous_node.left:
                     previous_node.right= TreeNode(int(num_string))
